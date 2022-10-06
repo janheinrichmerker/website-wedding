@@ -1,0 +1,43 @@
+title: "Lena 💍️ Heini"
+baseURL: "https://reimer.wedding/"
+
+defaultContentLanguage: de
+languages:
+  en:
+    weight: 1
+    languageCode: en-de
+    languageName: English
+  de:
+    weight: 2
+    languageCode: de-de
+    languageName: Deutsch
+
+
+params:
+  env: production
+
+metaDataFormat: yaml
+enableEmoji: true
+enableRobotsTXT: true
+
+disableKinds:
+  - taxonomies
+  - taxonomyTerm
+
+markup:
+  defaultMarkdownHandler: goldmark
+  goldmark:
+    extensions:
+      table: true
+      strikethrough: true
+      linkify: true
+      taskList: true
+      typographer: true
+  highlight:
+    noClasses: false
+    style: friendly
+
+sitemap:
+  changeFreq: monthly
+  priority: 0.5
+  filename: sitemap.xml

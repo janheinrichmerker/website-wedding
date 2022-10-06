@@ -1,0 +1,5 @@
+{{ if not .IsHome }}
+<nav>
+    <a href='{{ relref . "/" }}' title="{{ i18n "homepage" }}">🏠&nbsp;{{- i18n "home" -}}</a>
+</nav>
+{{ end }}

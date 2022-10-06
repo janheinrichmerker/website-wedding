@@ -1,0 +1,12 @@
+home:
+  other: "Home"
+homepage:
+  other: "Startseite"
+contact:
+  other: "Kontakt"
+pageNotFound:
+  other: "Seite nicht gefunden"
+pageNotFoundDescription:
+  other: "Die angefragte Seite existiert nicht."
+pageNotFoundAction:
+  other: "Geh einfach zurück zur Startseite oder kontaktiere mich:"

@@ -1,0 +1,23 @@
+<footer>
+    <p>
+        © {{ now.Format "2006" }} Lena Merker & Jan Heinrich Reimer
+    </p>
+    {{ if (or $.Site.Menus.footer $.Site.IsMultiLingual) }}
+        <ul>
+            {{ range $.Site.Menus.footer }}
+                <li>
+                    <a href="{{ .URL }}" title="{{ .Name }}">{{ .Name }}</a>
+                </li>
+            {{ end }}
+            {{ range $.Site.Languages }}
+                {{ if ne . $.Site.Language }}
+                    {{ range $.Translations }}
+                        <li>
+                            <a href="{{ .Permalink }}" title="{{ .Language.LanguageName }}">{{ upper .Language }}</a>
+                        </li>
+                    {{ end }}
+                {{ end }}
+            {{ end }}
+        </ul>
+    {{ end }}
+</footer>

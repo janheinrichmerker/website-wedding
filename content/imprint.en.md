@@ -1,0 +1,16 @@
+---
+title: Imprint
+aliases:
+  - /disclaimer/
+menu:
+  footer:
+    weight: 1
+    name: Imprint
+---
+
+For legal reasons, this imprint is only available [in German]({{< relref path="imprint.md" lang="de" >}}).
+
+## License
+
+The [source code](https://github.com/heinrichreimer/website-wedding) of this website is licensed under the [_MIT
+License_](https://opensource.org/licenses/MIT).
