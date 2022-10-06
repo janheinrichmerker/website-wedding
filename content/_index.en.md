@@ -7,4 +7,4 @@ aliases:
 
 When?&ensp;<em><time>TBA</time></em>
 &emsp;•&emsp;
-Where?&ensp;<em>TBA</em>
+Where?&ensp;<em>Braunschweig, Germany</em>
