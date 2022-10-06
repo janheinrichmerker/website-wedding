@@ -6,4 +6,4 @@ menu:
     name: Privacy
 ---
 
-For legal reasons, this privacy policy is only available [in German]({{< relref path="privacy.md" lang="de" >}}).
+For legal reasons, this privacy policy is only available [in German]({{< relref path="privacy" lang="de" >}}).

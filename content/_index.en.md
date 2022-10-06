@@ -5,4 +5,6 @@ aliases:
 - /en/home/
 ---
 
-[lost+found]({{< relref "/lost+found" >}})
+When?&ensp;<em><time>TBA</time></em>
+&emsp;•&emsp;
+Where?&ensp;<em>TBA</em>

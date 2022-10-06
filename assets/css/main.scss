@@ -1,122 +1,140 @@
-@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,400;0,500;1,400&display=swap");
+@use "sass:math" as math;
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400&display=swap');
 
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    color: #1f1813;
-    background: #fcf0dc;
-    font-family: "Fira Sans", sans-serif;
-    font-size: 20px;
-    width: 100vw;
-    height: 100vh;
-    margin: 0;
-    padding: 0.5em;
-    overflow-x: clip;
-    overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #190626;
+  background: #f7eeff;
+  font-family: 'PT Serif', serif;
+  font-size: 20px;
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0.5em;
+  overflow-x: clip;
+  overflow-y: auto;
 
-    > nav {
-        width: 100%;
-        max-width: 800px;
-        text-align: center;
-        font-variant: small-caps;
-    }
-
-    > main {
-        width: 100%;
-        max-width: 800px;
-        flex: 1;
-        display: flex;
-        flex-direction: column;
-    }
-
-    > footer {
-        display: flex;
-        width: 100%;
-        max-width: 800px;
-        text-align: center;
-        font-variant: small-caps;
-        font-size: 0.75em;
-        justify-content: space-between;
-
-        > ul {
-            list-style: none;
-            padding: 0;
-
-            > li {
-                display: inline;
-
-                &:before {
-                    display: inline;
-                    content: " • ";
-                }
-
-                &:first-of-type:before {
-                    display: none;
-                }
-            }
-        }
-    }
-
-    &.home {
-        > main {
-            text-align: center;
-            justify-content: center;
-
-            h1 {
-                font-size: 6em;
-                margin-bottom: 0;
-
-                @media screen and (max-width: 800px) {
-                    font-size: 3em;
-                }
-            }
-
-            p {
-                font-size: 1.5em;
-
-                @media screen and (max-width: 800px) {
-                    font-size: 1.2em;
-                }
-            }
-        }
-    }
+  > nav {
+    width: 100%;
+    max-width: 800px;
+    text-align: center;
+    font-variant: small-caps;
 
     a {
-        color: inherit;
-
-        &:hover {
-            color: #402c1f;
-        }
+      text-decoration: none;
+      font-weight: bold;
     }
+  }
 
-    figure {
-        display: flex;
-        width: 100%;
-        margin-left: 0;
-        margin-right: 0;
-        border-radius: 0.2em;
-        box-shadow: 0 2px 6px 0 #1f181366;
-        overflow: hidden;
+  > main {
+    width: 100%;
+    max-width: 800px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
 
-        a {
-            display: flex;
-            flex: 1;
-            width: 0;
+  > footer {
+    display: flex;
+    width: 100%;
+    max-width: 800px;
+    text-align: center;
+    font-variant: small-caps;
+    font-size: 0.75em;
+    justify-content: space-between;
+
+    > ul {
+      list-style: none;
+      padding: 0;
+
+      > li {
+        display: inline;
+
+        &:before {
+          display: inline;
+          content: " • ";
         }
 
-        img {
-            margin: 0;
-            flex: 1;
-            width: 0;
+        &:first-of-type:before {
+          display: none;
         }
+      }
+    }
+  }
+
+  &.home {
+    > main {
+      text-align: center;
+      justify-content: center;
+
+      h1 {
+        font-size: 5em;
+        margin-bottom: 0;
+
+        @media screen and (max-width: 800px) {
+          font-size: 3em;
+        }
+      }
+
+      p {
+        font-size: 1.5em;
+
+        @media screen and (max-width: 800px) {
+          font-size: 1.2em;
+        }
+      }
+
+      address {
+        display: inline;
+        font-size: 1em;
+        font-style: normal;
+      }
+    }
+  }
+
+  a {
+    color: inherit;
+
+    &:hover {
+      color: #420f66;
+    }
+  }
+
+  @for $level from 1 through 6 {
+    h#{$level} {
+      font-size: math.log($level, 6) * -1em + 2em;
+    }
+  }
+
+  figure {
+    display: flex;
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    border-radius: 0.2em;
+    box-shadow: 0 2px 6px 0 #19062666;
+    overflow: hidden;
+
+    a {
+      display: flex;
+      flex: 1;
+      width: 0;
     }
 
     img {
-        max-width: 100%;
+      margin: 0;
+      flex: 1;
+      width: 0;
     }
+  }
+
+  img {
+    max-width: 100%;
+  }
 }

@@ -3,14 +3,12 @@ baseURL: "https://reimer.wedding/"
 
 defaultContentLanguage: de
 languages:
-  en:
-    weight: 1
-    languageCode: en-de
-    languageName: English
   de:
-    weight: 2
     languageCode: de-de
     languageName: Deutsch
+  en:
+    languageCode: en-de
+    languageName: English
 
 
 params:
@@ -33,6 +31,8 @@ markup:
       linkify: true
       taskList: true
       typographer: true
+    renderer:
+      unsafe: True
   highlight:
     noClasses: false
     style: friendly

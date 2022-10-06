@@ -98,9 +98,13 @@ Ein lückenloser Schutz der Daten vor dem Zugriff durch Dritte ist nicht möglic
 
 Die verantwortliche Stelle für die Datenverarbeitung auf dieser Website ist:
 
+<address>
+
 Jan Heinrich Reimer  
 Hohestieg 12  
 38118 Braunschweig
+
+</address>
 
 Telefon: [+49 174 9273954](tel:+491749273954)  
 E-Mail: [admin@reimer.wedding](mailto:admin@reimer.wedding)

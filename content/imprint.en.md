@@ -8,7 +8,7 @@ menu:
     name: Imprint
 ---
 
-For legal reasons, this imprint is only available [in German]({{< relref path="imprint.md" lang="de" >}}).
+For legal reasons, this imprint is only available [in German]({{< relref path="imprint" lang="de" >}}).
 
 ## License
 
