@@ -84,6 +84,8 @@ jobs:
         with:
           name: public-pages
           path: public/
+      - name: "🗜️ Create public pages archive"
+        run: zip -r public.zip public/
       - name: "🚀 Create GitHub release"
         uses: softprops/action-gh-release@v1
         with:
@@ -91,5 +93,4 @@ jobs:
           draft: false
           prerelease: false
           generate_release_notes: true
-          files: |
-            public/
+          files: public.zip
