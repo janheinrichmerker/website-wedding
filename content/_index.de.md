@@ -1,5 +1,5 @@
 ---
-title: Lena 💍️ Heini
+title: Lena & Heini
 aliases:
 - /de/home/
 ---

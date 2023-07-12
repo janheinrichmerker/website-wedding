@@ -1,5 +1,5 @@
 title: "Lena 💍️ Heini"
-baseURL: "https://reimer.wedding/"
+baseURL: "https://lena-und-heini.de/"
 
 defaultContentLanguage: de
 languages:
@@ -19,7 +19,7 @@ enableEmoji: true
 enableRobotsTXT: true
 
 disableKinds:
-  - taxonomies
+  - taxonomy
   - taxonomyTerm
 
 markup:

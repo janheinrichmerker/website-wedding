@@ -1,5 +1,29 @@
 @use "sass:math" as math;
-@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Cormorant&display=swap');
+
+$font-family-body: 'Cormorant', serif;
+$font-size-body: 12pt * 1.5;
+$line-height-body: 1.5;
+$font-family-secondary: $font-family-body;
+$font-size-secondary: 9pt * 1.5;
+$line-height-secondary: $line-height-body;
+$font-family-heading: 'Amatic SC', sans-serif;
+$font-size-heading: 24pt * 1.5;
+$line-height-heading: $line-height-body;
+$color-background: #FFFDFA;
+$color-border: #B97B09;
+$color-text: #321E0C;
+$box-shadow-paper: 0 0 3px rgba(0, 0, 0, 0.2);
+$box-shadow-paper-large: 0 0 6px rgba(0, 0, 0, 0.4);
+{{ $backgroundPaperTexture := resources.Get "img/paper-texture.png" }}
+{{ $backgroundPaperTexture := $backgroundPaperTexture.Resize "1000x" }}
+$background-paper-texture: url('{{ $backgroundPaperTexture.RelPermalink }}');
+{{ $backgroundWatercolor := resources.Get "img/watercolor-background.png" }}
+{{ $backgroundWatercolor := $backgroundWatercolor.Resize "1000x" }}
+$background-watercolor: url('{{ $backgroundWatercolor.RelPermalink }}');
+{{ $backgroundFlowerCorner := resources.Get "img/flower-corner.png" }}
+{{ $backgroundFlowerCorner := $backgroundFlowerCorner.Resize "1000x" }}
+$background-flower-corner: url('{{ $backgroundFlowerCorner.RelPermalink }}');
 
 * {
   box-sizing: border-box;
@@ -9,16 +33,42 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  color: #190626;
-  background: #f7eeff;
-  font-family: 'PT Serif', serif;
-  font-size: 20px;
+  color: $color-text;
+  background: $color-background;
+  font-family: $font-family-body;
+  font-size: $font-size-body;
   width: 100vw;
   height: 100vh;
   margin: 0;
   padding: 0.5em;
   overflow-x: clip;
   overflow-y: auto;
+  position: relative;
+
+  &:before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: repeat $background-paper-texture, no-repeat 0 0 / 100% 100% $background-watercolor;
+    opacity: 0.3;
+    z-index: -1;
+  }
+
+  &:after {
+    content: "";
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 50vmin;
+    height: 50vmin;
+    background-image: $background-flower-corner;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    z-index: -1;
+  }
 
   > nav {
     width: 100%;
@@ -45,9 +95,11 @@ body {
     width: 100%;
     max-width: 800px;
     text-align: center;
-    font-variant: small-caps;
-    font-size: 0.75em;
-    justify-content: space-between;
+    font-family: $font-family-secondary;
+    font-size: $font-size-secondary;
+    line-height: $line-height-secondary;
+    justify-content: center;
+    gap: 2em;
 
     > ul {
       list-style: none;
@@ -102,39 +154,16 @@ body {
     color: inherit;
 
     &:hover {
-      color: #420f66;
+      color: mix($color-text, $color-border);
     }
   }
 
-  @for $level from 1 through 6 {
-    h#{$level} {
-      font-size: math.log($level, 6) * -1em + 2em;
-    }
-  }
-
-  figure {
-    display: flex;
-    width: 100%;
-    margin-left: 0;
-    margin-right: 0;
-    border-radius: 0.2em;
-    box-shadow: 0 2px 6px 0 #19062666;
-    overflow: hidden;
-
-    a {
-      display: flex;
-      flex: 1;
-      width: 0;
-    }
-
-    img {
-      margin: 0;
-      flex: 1;
-      width: 0;
-    }
-  }
-
-  img {
-    max-width: 100%;
+  h1, h2 {
+    font-family: $font-family-heading;
+    font-size: $font-size-heading;
+    line-height: $line-height-heading;
+    font-weight: normal;
+    margin-top: 0;
+    margin-bottom: 0.5em;
   }
 }
