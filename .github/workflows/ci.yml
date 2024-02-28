@@ -78,7 +78,7 @@ jobs:
           name: public-pages
           path: public/
       - name: 🚀 Deploy via SSH
-        uses: appleboy/scp-action@v0.1.2
+        uses: appleboy/scp-action@v0.1.7
         with:
           username: ${{ secrets.DEPLOY_SSH_USER }}
           host: ${{ secrets.DEPLOY_SSH_HOST }}
