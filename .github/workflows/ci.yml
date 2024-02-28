@@ -23,15 +23,15 @@ jobs:
         with:
           hugo-version: '0.123.4'
           extended: true
-      - name: 🧰 Install Node
-        uses: actions/setup-node@v4
-        with:
-          node-version: '20.10'
-          cache: yarn
-          cache-dependency-path: assets/yarn.lock
-      - name: 🧰 Install asset dependencies
-        working-directory: assets/
-        run: yarn
+      # - name: 🧰 Install Node
+      #   uses: actions/setup-node@v4
+      #   with:
+      #     node-version: '20.10'
+      #     cache: yarn
+      #     cache-dependency-path: assets/yarn.lock
+      # - name: 🧰 Install asset dependencies
+      #   working-directory: assets/
+      #   run: yarn
       - name: ♻️ Cache Hugo modules
         uses: actions/cache@v3
         with:
