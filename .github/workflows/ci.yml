@@ -81,8 +81,6 @@ jobs:
         with:
           name: public-pages
           path: public/
-      - name: Display structure of downloaded files
-        run: ls -R public/
       - name: 🚀 Deploy via SSH
         uses: appleboy/scp-action@v0.1.7
         with:
@@ -91,7 +89,6 @@ jobs:
           key: ${{ secrets.DEPLOY_SSH_KEY }}
           source: public/
           strip_components: 1
-          rm: true
           target: ${{ secrets.DEPLOY_SSH_TARGET_PATH }}
   release:
     name: 🚀 Create GitHub release
