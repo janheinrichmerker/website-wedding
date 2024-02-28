@@ -5,11 +5,13 @@
 
 # 🌐 website-wedding
 
-Wedding website for Lena & Heini.
+Website for Lena's and Heini's wedding taking place on 03.08.2024 in Braunschweig, Germany.
 
 ## Short Links
 
-To be engraved on the rings.
+The following URL is to be engraved on the rings:
 
-- [L❤H.ws](https://L❤H.ws)
-- [L♥H.ws](https://L♥H.ws)
+- [www.L❤H.ws](https://L❤H.ws)
+- [www.L♥H.ws](https://L♥H.ws)
+
+We maintain both variants as the two heart symbols are virtually indistinguishable.
