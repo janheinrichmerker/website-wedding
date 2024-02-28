@@ -6,18 +6,18 @@ aliases:
 
 <small>
 
-_(Sprichst du [deutsch]({{< relref path="lost+found" lang="de" >}})? 
-Dann geht's [hier]({{< relref path="lost+found" lang="de" >}}) lang. 🇩🇪)_
+(Sprichst du [deutsch]({{< relref path="lost+found" lang="de" >}})? 
+Dann geht's [hier]({{< relref path="lost+found" lang="de" >}}) lang. 🇩🇪)
 
 </small>
 
-Phew! Seems we've lost one of our <em>wedding rings</em>… 😮  
-Lucky you have found it! 😊
+Phew! Seems we've lost one of our wedding rings… 😮 \
+Luckily you have found it! 😊
 
-So first of all, <em>thank you! ❤️</em>
+So first of all, thank you! ❤️
 
-And you probably wondered what this URL is all about.  
-(Who engraves a URL on a wedding ring, right? 😄)  
+And you probably wondered what this URL is all about. \
+(Who engraves a URL on a wedding ring, right? 😄) \
 Well, it's our unusual way to ensure the rings---when found---can easily be returned from anywhere in the world.
 
 ## What can you do?
@@ -38,4 +38,8 @@ Well, it's our unusual way to ensure the rings---when found---can easily be retu
 
    We'd recommend [DHL](https://dhl.com) for international shipping.
 
-Of course, we're more than happy to reimburse any expenses you have sending the ring back to us.
+Of course, we're more than happy to reimburse any expenses you have by sending the ring back to us.
+
+Thank you!
+
+Lena und Heini
