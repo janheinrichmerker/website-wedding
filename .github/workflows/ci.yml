@@ -81,6 +81,8 @@ jobs:
         with:
           name: public-pages
           path: public/
+      - name: Display structure of downloaded files
+        run: ls -R public/
       - name: 🚀 Deploy via SSH
         uses: appleboy/scp-action@v0.1.2
         with:
