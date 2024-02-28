@@ -122,7 +122,7 @@ Die Rechtmäßigkeit der bis zum Widerruf erfolgten Datenverarbeitung bleibt vom
 
 ### Widerspruchsrecht gegen die Datenerhebung in besonderen Fällen sowie gegen Direktwerbung (Art. 21 DSGVO)
 
-_Wenn die Datenverarbeitung auf Grundlage von Art. 6 Abs. 1 Lit. E oder F DSGVO erfolgt,
+Wenn die Datenverarbeitung auf Grundlage von Art. 6 Abs. 1 Lit. E oder F DSGVO erfolgt,
 haben Sie jederzeit das Recht, aus Gründen, die sich aus Ihrer besonderen Situation ergeben,
 gegen die Verarbeitung Ihrer personenbezogenen Daten Widerspruch einzulegen;
 dies gilt auch für ein auf diese Bestimmungen gestütztes Profiling.
@@ -131,14 +131,14 @@ entnehmen Sie dieser Datenschutzerklärung.
 Wenn Sie Widerspruch einlegen, werden wir Ihre betroffenen personenbezogenen Daten nicht mehr verarbeiten,
 es sei denn, wir können zwingende schutzwürdige Gründe für die Verarbeitung nachweisen,
 die Ihre Interessen, Rechte und Freiheiten überwiegen oder die Verarbeitung dient der Geltendmachung,
-Ausübung oder Verteidigung von Rechtsansprüchen (Widerspruch nach Art. 21 Abs. 1 DSGVO)._
+Ausübung oder Verteidigung von Rechtsansprüchen (Widerspruch nach Art. 21 Abs. 1 DSGVO).
 
-_Werden Ihre personenbezogenen Daten verarbeitet, um Direktwerbung zu betreiben,
+Werden Ihre personenbezogenen Daten verarbeitet, um Direktwerbung zu betreiben,
 so haben Sie das Recht, jederzeit Widerspruch gegen die Verarbeitung Sie betreffender personenbezogener Daten
 zum Zwecke derartiger Werbung einzulegen;
 dies gilt auch für das Profiling, soweit es mit solcher Direktwerbung in Verbindung steht.
 Wenn Sie widersprechen, werden Ihre personenbezogenen Daten anschließend
-nicht mehr zum Zwecke der Direktwerbung verwendet (Widerspruch nach Art. 21 Abs. 2 DSGVO)._
+nicht mehr zum Zwecke der Direktwerbung verwendet (Widerspruch nach Art. 21 Abs. 2 DSGVO).
 
 ### Beschwerderecht bei der zuständigen Aufsichtsbehörde
 

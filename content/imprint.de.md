@@ -52,5 +52,5 @@ Quelle: [e-recht24](https://www.e-recht24.de)
 ## Lizenz <a name="license"/>
 
 Der [Quellcode](https://github.com/heinrichreimer/website-wedding) dieser Webseite ist unter der
-[_MIT License_](https://opensource.org/licenses/MIT)
+[MIT License](https://opensource.org/licenses/MIT)
 lizensiert.
