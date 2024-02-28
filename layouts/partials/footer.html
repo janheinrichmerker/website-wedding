@@ -11,7 +11,7 @@
             {{ end }}
             {{ range $.Translations }}
                 <li>
-                    <a href="{{ .Permalink }}" title="{{ .Language.LanguageName }}">{{ upper .Language }}</a>
+                    <a href="{{ .RelPermalink }}" title="{{ .Language.LanguageName }}">{{ upper .Language }}</a>
                 </li>
             {{ end }}
         </ul>
