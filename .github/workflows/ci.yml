@@ -20,7 +20,7 @@ jobs:
         with:
           hugo-version: '0.123.4'
           extended: true
-      - name: "🧰 Install dart-sass-embedded"
+      - name: 🧰 Install dart-sass-embedded
         run: |
           curl -LJO https://github.com/sass/dart-sass-embedded/releases/download/1.56.2/sass_embedded-1.56.2-linux-x64.tar.gz;
           echo "9e4f455f7b8619959d7878af2862383be58392eb963a14ff87cc512c03701e2a  sass_embedded-1.56.2-linux-x64.tar.gz" | sha256sum -c;
