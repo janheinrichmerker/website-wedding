@@ -20,7 +20,6 @@ enableRobotsTXT: true
 
 disableKinds:
   - taxonomy
-  - taxonomyTerm
 
 markup:
   defaultMarkdownHandler: goldmark
