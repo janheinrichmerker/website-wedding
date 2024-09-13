@@ -1,8 +1,8 @@
 ---
 title: Fotos
-#aliases:
-#  - /fotos/
-#  - /📷/
+aliases:
+  - /fotos/
+  - /📷/
 ---
 
 Moin zusammen,
