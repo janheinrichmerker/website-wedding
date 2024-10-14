@@ -1,7 +1,7 @@
-[![CI](https://img.shields.io/github/actions/workflow/status/heinrichreimer/website-wedding/ci.yml?branch=main&style=flat-square)](https://github.com/heinrichreimer/website-wedding/actions/workflows/ci.yml)
-[![Issues](https://img.shields.io/github/issues/heinrichreimer/website-wedding?style=flat-square)](https://github.com/heinrichreimer/website-wedding/issues)
-[![Commit activity](https://img.shields.io/github/commit-activity/m/heinrichreimer/website-wedding?style=flat-square)](https://github.com/heinrichreimer/website-wedding/commits)
-[![License](https://img.shields.io/github/license/heinrichreimer/website-wedding?style=flat-square)](LICENSE)
+[![CI](https://img.shields.io/github/actions/workflow/status/janheinrichmerker/website-wedding/ci.yml?branch=main&style=flat-square)](https://github.com/janheinrichmerker/website-wedding/actions/workflows/ci.yml)
+[![Issues](https://img.shields.io/github/issues/janheinrichmerker/website-wedding?style=flat-square)](https://github.com/janheinrichmerker/website-wedding/issues)
+[![Commit activity](https://img.shields.io/github/commit-activity/m/janheinrichmerker/website-wedding?style=flat-square)](https://github.com/janheinrichmerker/website-wedding/commits)
+[![License](https://img.shields.io/github/license/janheinrichmerker/website-wedding?style=flat-square)](LICENSE)
 
 # 🌐 website-wedding
 
