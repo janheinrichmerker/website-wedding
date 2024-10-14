@@ -29,7 +29,7 @@ Well, it's our unusual way to ensure the rings---when found---can easily be retu
 
    <address>
 
-   Lena Merker & Jan Heinrich Reimer  
+   Lena & Jan Heinrich Merker  
    Hohestieg 12  
    38118 Braunschweig  
    Germany

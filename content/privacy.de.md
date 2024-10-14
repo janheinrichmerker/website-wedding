@@ -100,14 +100,14 @@ Die verantwortliche Stelle für die Datenverarbeitung auf dieser Website ist:
 
 <address>
 
-Jan Heinrich Reimer  
+Jan Heinrich Merker  
 Hohestieg 12  
 38118 Braunschweig
 
 </address>
 
 Telefon: [+49 174 9273954](tel:+491749273954)  
-E-Mail: [admin@reimer.wedding](mailto:admin@reimer.wedding)
+E-Mail: [admin@lena-und-heini.de](mailto:admin@lena-und-heini.de)
 
 Verantwortliche Stelle ist die natürliche oder juristische Person,
 die allein oder gemeinsam mit anderen über die Zwecke und Mittel der Verarbeitung

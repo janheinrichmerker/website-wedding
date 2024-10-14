@@ -30,7 +30,7 @@ Nun ja, das ist unser ungewöhnlicher Weg, sicherzustellen, dass die Ringe -- we
 
    <address>
 
-   Lena Merker & Jan Heinrich Reimer  
+   Lena & Jan Heinrich Merker  
    Hohestieg 12  
    38118 Braunschweig  
    Germany

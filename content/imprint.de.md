@@ -13,14 +13,14 @@ Angaben gemäß § 5 TMG:
 
 <address>
 
-Jan Heinrich Reimer  
+Jan Heinrich Merker  
 Hohestieg 12  
 38118 Braunschweig
 
 </address>
 
 Telefon: [+49 174 9273954](tel:+491749273954)  
-E-Mail: [admin@reimer.wedding](mailto:admin@reimer.wedding)
+E-Mail: [admin@lena-und-heini.de](mailto:admin@lena-und-heini.de)
 
 ### Haftung für Inhalte
 
