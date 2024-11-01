@@ -38,7 +38,7 @@ jobs:
           restore-keys: link-checker-
       - name: 🔄 Check links
         id: linkCheck
-        uses: lycheeverse/lychee-action@v1
+        uses: lycheeverse/lychee-action@v2
         with:
           lycheeVersion: '0.13.0'
           args: --require-https --verbose --no-progress --base public/ --cache --max-cache-age 1d --exclude https://dhl.com/ --accept 999 --max-retries 10 --max-redirects 10 public/
