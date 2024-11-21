@@ -40,7 +40,6 @@ jobs:
         id: linkCheck
         uses: lycheeverse/lychee-action@v2
         with:
-          lycheeVersion: '0.17.0'
           args: --require-https --verbose --no-progress --base public/ --cache --max-cache-age 1d --exclude https://dhl.com/ --accept 999 --max-retries 10 --max-redirects 10 public/
           fail: true
       - name: 📤 Upload public pages
