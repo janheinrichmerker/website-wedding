@@ -40,7 +40,7 @@ jobs:
         id: linkCheck
         uses: lycheeverse/lychee-action@v2
         with:
-          args: --require-https --verbose --no-progress --root-dir "$(pwd)/public" --cache --max-cache-age 1d --exclude https://dhl.com/ --accept 999 --max-retries 10 --max-redirects 10 public/
+          args: --require-https --verbose --no-progress --root-dir "$(pwd)/public" --cache --max-cache-age 1d --exclude https://dhl.com/ --max-retries 10 --max-redirects 10 public/
           fail: true
       - name: 📤 Upload public pages
         uses: actions/upload-artifact@v4
