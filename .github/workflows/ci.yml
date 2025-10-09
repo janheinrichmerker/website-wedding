@@ -37,7 +37,6 @@ jobs:
           key: link-checker-${{ github.sha }}
           restore-keys: link-checker-
       - name: 🔄 Check links
-        id: linkCheck
         uses: lycheeverse/lychee-action@v2
         with:
           args: --require-https --verbose --no-progress --root-dir "$(pwd)/public" --cache --max-cache-age 1d --exclude https://dhl.com/ --max-retries 10 --max-redirects 10 public/
